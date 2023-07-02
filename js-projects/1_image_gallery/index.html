@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="filter-buttons">
+            <button data-name="all" class="active">All</button>
+            <button data-name="filter1">filter1</button>
+            <button data-name="filter2">filter2</button>
+            <button data-name="filter3">filter3</button>
+        </div>
+
+    <div class="filterable-cards">
+        <div class="card" data-name="filter1">
+            <img src="https://picsum.photos/id/41/400/300" alt="filter1">
+            <div class="card-body">
+                <h6 class="title">Filter1</h6>
+                <p class="text">Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+
+        <div class="card" data-name="filter2">
+            <img src="https://picsum.photos/id/2/400/300" alt="filter2">
+            <div class="card-body">
+                <h6 class="title">Filter2</h6>
+                <p class="text">Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+
+        <div class="card" data-name="filter3">
+            <img src="https://picsum.photos/id/13/400/300" alt="filter3">
+            <div class="card-body">
+                <h6 class="title">Filter3</h6>
+                <p class="text">Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+
+        <div class="card" data-name="filter3">
+            <img src="https://picsum.photos/id/23/400/300" alt="filter3">
+            <div class="card-body">
+                <h6 class="title">Filter3</h6>
+                <p class="text">Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+
+        <div class="card" data-name="filter1">
+            <img src="https://picsum.photos/id/156/400/300" alt="filter1">
+            <div class="card-body">
+                <h6 class="title">Filter1</h6>
+                <p class="text">Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
